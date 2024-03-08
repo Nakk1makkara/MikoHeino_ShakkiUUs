@@ -43,8 +43,7 @@ public:
 		int pelaaja = _siirtovuoro;
 		int vihu = vastustaja(pelaaja);
 
-		// Luodaan pelaajan raakasiirrot. Osa siirroista saattaa
-		// jättää kuninkaan uhatuksi.
+		// Luodaan pelaajan raakasiirrot.
 		std::vector<Siirto> raakasiirrot;
 		anna_kaikki_raakasiirrot(pelaaja, raakasiirrot);
 		anna_linnoitukset(pelaaja, raakasiirrot);
@@ -62,14 +61,19 @@ public:
 			int rivi, sarake;
 			testiasema.etsi_nappula(kuningas, rivi, sarake);
 
-			// Jäikö kuningas shakkiin?
+			// Tarkistetaan jääkö kuningas uhatuksi testiaseman jälkeen.
 			if (!testiasema.onko_ruutu_uhattu(rivi, sarake, vihu))
 			{
-				// Siirto on laillinen!
-				siirrot.push_back(rs);
+				// Tarkistetaan myös ettei siirto jätä kuninkaan uhatuksi.
+				if (!testiasema.onko_ruutu_uhattu(rivi, sarake, pelaaja))
+				{
+					// Siirto ei jätä kuningasta uhatuksi.
+					siirrot.push_back(rs);
+				}
 			}
 		}
 	}
+
 
 	// Pisteyttää pelin lopputuloksen seuraavasti:
 	//
@@ -156,7 +160,7 @@ public:
 		// paras_arvo mahdollisimman huonoksi siirtovuoroisen
 		// pelaajan kannalta).
 		float paras_arvo = _siirtovuoro == VALKEA ?
-			numeric_limits<float>::min() : numeric_limits<float>::max();
+			numeric_limits<float>::lowest() : numeric_limits<float>::max();
 		Siirto paras_siirto;
 		for (Siirto& s : siirrot)
 		{
@@ -277,12 +281,9 @@ public:
 
 	bool onko_ruutu_uhattu(int rivi, int linja, int uhkaava_pelaaja) const
 	{
-		
-		Asema temp = *this;
-
-		// Käydään läpi kaikki vastustajan mahdolliset raakasiirrot ja tarkistetaan voiko jokin niistä uhata annettua ruutua
+		// Käydään läpi kaikki vastustajan mahdolliset raakasiirrot ja tarkistetaan uhkaako jokin niistä ruutua.
 		vector<Siirto> vastustajan_siirrot;
-		temp.anna_kaikki_raakasiirrot(vastustaja(uhkaava_pelaaja), vastustajan_siirrot);
+		anna_kaikki_raakasiirrot(vastustaja(uhkaava_pelaaja), vastustajan_siirrot);
 
 		for (const Siirto& siirto : vastustajan_siirrot) {
 			int kohde_rivi = siirto._l_r;
@@ -295,6 +296,7 @@ public:
 
 		return false;
 	}
+
 
 
 	// Antaa tornin raakasiirrot (shakeista ei välitetä).
