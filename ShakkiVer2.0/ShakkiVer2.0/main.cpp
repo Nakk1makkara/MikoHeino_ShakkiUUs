@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "asema.h" // Sis‰lt‰‰ Asema-luokan m‰‰rittelyn
-#include "siirto.h" // Sis‰lt‰‰ Siirto-luokan m‰‰rittelyn
+#include "asema.h" 
+#include "siirto.h"
 
 using namespace std;
 
@@ -23,7 +23,7 @@ int main()
         cout << "Mahdolliset siirrot:" << endl;
         int siirrot_laskuri = 0;
 
-        //Laittaa lailliset siirrot siististi riveihin
+        // Laittaa lailliset siirrot siististi riveihin
         for (const auto& siirto : siirrot)
         {
             cout << siirto.muotoiltu_merkkijono() << " ";
@@ -54,7 +54,7 @@ int main()
 
         // Kysyt‰‰n pelaajan siirto
         string pelaajan_siirto;
-        cout << "Syˆt‰ siirto (esim. e2e4 tai a7a8Q): ";
+        cout << "Syˆt‰ siirto: ";
         cin >> pelaajan_siirto;
 
         // Luodaan Siirto-olio pelaajan syˆtteen perusteella
@@ -85,7 +85,7 @@ int main()
         }
 
         // Tietokone tekee siirron
-        MinimaxArvo tietokoneen_siirto = asema.minimax(3);
+        MinimaxArvo tietokoneen_siirto = asema.minimax(1);
         asema.tee_siirto(tietokoneen_siirto._siirto);
 
         // Tarkista lailliset siirrot

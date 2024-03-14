@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B204295-3D3F-405B-BBF2-892D7C55C5D0}|ShakkiVer2.0\\ShakkiVer2.0.vcxproj|C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\asema.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2B204295-3D3F-405B-BBF2-892D7C55C5D0}|ShakkiVer2.0\\ShakkiVer2.0.vcxproj|solutionrelative:ShakkiVer2.0\\asema.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2B204295-3D3F-405B-BBF2-892D7C55C5D0}|ShakkiVer2.0\\ShakkiVer2.0.vcxproj|C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2B204295-3D3F-405B-BBF2-892D7C55C5D0}|ShakkiVer2.0\\ShakkiVer2.0.vcxproj|solutionrelative:ShakkiVer2.0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B204295-3D3F-405B-BBF2-892D7C55C5D0}|ShakkiVer2.0\\ShakkiVer2.0.vcxproj|C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\siirto.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2B204295-3D3F-405B-BBF2-892D7C55C5D0}|ShakkiVer2.0\\ShakkiVer2.0.vcxproj|solutionrelative:ShakkiVer2.0\\siirto.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2B204295-3D3F-405B-BBF2-892D7C55C5D0}|ShakkiVer2.0\\ShakkiVer2.0.vcxproj|C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\asema.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2B204295-3D3F-405B-BBF2-892D7C55C5D0}|ShakkiVer2.0\\ShakkiVer2.0.vcxproj|solutionrelative:ShakkiVer2.0\\asema.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B204295-3D3F-405B-BBF2-892D7C55C5D0}|ShakkiVer2.0\\ShakkiVer2.0.vcxproj|C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\shakki.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2B204295-3D3F-405B-BBF2-892D7C55C5D0}|ShakkiVer2.0\\ShakkiVer2.0.vcxproj|solutionrelative:ShakkiVer2.0\\shakki.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B204295-3D3F-405B-BBF2-892D7C55C5D0}|ShakkiVer2.0\\ShakkiVer2.0.vcxproj|C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\shakki.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2B204295-3D3F-405B-BBF2-892D7C55C5D0}|ShakkiVer2.0\\ShakkiVer2.0.vcxproj|solutionrelative:ShakkiVer2.0\\shakki.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2B204295-3D3F-405B-BBF2-892D7C55C5D0}|ShakkiVer2.0\\ShakkiVer2.0.vcxproj|C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\siirto.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2B204295-3D3F-405B-BBF2-892D7C55C5D0}|ShakkiVer2.0\\ShakkiVer2.0.vcxproj|solutionrelative:ShakkiVer2.0\\siirto.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B204295-3D3F-405B-BBF2-892D7C55C5D0}|ShakkiVer2.0\\ShakkiVer2.0.vcxproj|C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2B204295-3D3F-405B-BBF2-892D7C55C5D0}|ShakkiVer2.0\\ShakkiVer2.0.vcxproj|solutionrelative:ShakkiVer2.0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2B204295-3D3F-405B-BBF2-892D7C55C5D0}|ShakkiVer2.0\\ShakkiVer2.0.vcxproj|C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\shakki.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2B204295-3D3F-405B-BBF2-892D7C55C5D0}|ShakkiVer2.0\\ShakkiVer2.0.vcxproj|solutionrelative:ShakkiVer2.0\\shakki.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B204295-3D3F-405B-BBF2-892D7C55C5D0}|ShakkiVer2.0\\ShakkiVer2.0.vcxproj|C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\asema.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -34,17 +34,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "shakki.cpp",
+              "DocumentMoniker": "C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\shakki.cpp",
+              "RelativeDocumentMoniker": "ShakkiVer2.0\\shakki.cpp",
+              "ToolTip": "C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\shakki.cpp",
+              "RelativeToolTip": "ShakkiVer2.0\\shakki.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-08T14:14:54.207Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "siirto.h",
               "DocumentMoniker": "C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\siirto.h",
               "RelativeDocumentMoniker": "ShakkiVer2.0\\siirto.h",
               "ToolTip": "C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\siirto.h",
               "RelativeToolTip": "ShakkiVer2.0\\siirto.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAFsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-08T14:14:55.666Z",
               "EditorCaption": ""
@@ -57,46 +71,33 @@
               "RelativeDocumentMoniker": "ShakkiVer2.0\\shakki.h",
               "ToolTip": "C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\shakki.h",
               "RelativeToolTip": "ShakkiVer2.0\\shakki.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-04T18:44:21.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "shakki.cpp",
-              "DocumentMoniker": "C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\shakki.cpp",
-              "RelativeDocumentMoniker": "ShakkiVer2.0\\shakki.cpp",
-              "ToolTip": "C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\shakki.cpp",
-              "RelativeToolTip": "ShakkiVer2.0\\shakki.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-08T14:14:54.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\main.cpp",
               "RelativeDocumentMoniker": "ShakkiVer2.0\\main.cpp",
               "ToolTip": "C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\main.cpp",
               "RelativeToolTip": "ShakkiVer2.0\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADgAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-08T14:14:53.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "asema.h",
               "DocumentMoniker": "C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\asema.h",
               "RelativeDocumentMoniker": "ShakkiVer2.0\\asema.h",
               "ToolTip": "C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\asema.h",
               "RelativeToolTip": "ShakkiVer2.0\\asema.h",
-              "ViewState": "AQIAAAsBAAAAAAAAAAAAACMBAAA0AAAA",
+              "ViewState": "AQIAAF8BAAAAAAAAAAAAAHEBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-08T14:14:52.272Z",
               "EditorCaption": ""
@@ -109,7 +110,7 @@
               "RelativeDocumentMoniker": "ShakkiVer2.0\\asema.cpp",
               "ToolTip": "C:\\Users\\mikoh\\Documents\\GitHub\\MikoHeino_ShakkiUUs\\ShakkiVer2.0\\ShakkiVer2.0\\asema.cpp",
               "RelativeToolTip": "ShakkiVer2.0\\asema.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-08T14:14:51.47Z",
               "EditorCaption": ""

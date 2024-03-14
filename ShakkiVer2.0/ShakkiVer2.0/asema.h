@@ -242,27 +242,38 @@ public:
 	{
 		if (pelaaja == VALKEA)
 		{
-			// kuningas ja torni eivät liikkuneet, f1 tyhjä, g1 tyhjä,
-			// kuningas ei shakissa (e1 ei uhattu), f1 ei uhattu (kuningas ei
-			// saa sääntöjen mukaan hypätä uhatun ruudun yli)
+			// Valkean lyhyt linnoitus
 			if (_valkea_lyhyt_linna_sallittu && _lauta[7][5] == NA && _lauta[7][6] == NA &&
 				!onko_ruutu_uhattu(7, 4, MUSTA) && !onko_ruutu_uhattu(7, 5, MUSTA))
 			{
-				// Lisätään lyhyt linnoitus
 				siirrot.push_back(Siirto(7, 4, 7, 6));
-
-				// TAI: siirrot.push_back(Siirto("e1g1"));
 			}
-			if (_valkea_pitka_linna_sallittu)
+
+			// Valkean pitkä linnoitus
+			if (_valkea_pitka_linna_sallittu && _lauta[7][1] == NA && _lauta[7][2] == NA && _lauta[7][3] == NA &&
+				!onko_ruutu_uhattu(7, 2, MUSTA) && !onko_ruutu_uhattu(7, 3, MUSTA) && !onko_ruutu_uhattu(7, 4, MUSTA))
 			{
-				// TODO: valkean pitkä linnoitus
+				siirrot.push_back(Siirto(7, 4, 7, 2));
 			}
 		}
 		else
 		{
-			// TODO: mustan linnoitukset
+			// Mustan lyhyt linnoitus
+			if (_musta_lyhyt_linna_sallittu && _lauta[0][5] == NA && _lauta[0][6] == NA &&
+				!onko_ruutu_uhattu(0, 4, VALKEA) && !onko_ruutu_uhattu(0, 5, VALKEA))
+			{
+				siirrot.push_back(Siirto(0, 4, 0, 6));
+			}
+
+			// Mustan pitkä linnoitus
+			if (_musta_pitka_linna_sallittu && _lauta[0][1] == NA && _lauta[0][2] == NA && _lauta[0][3] == NA &&
+				!onko_ruutu_uhattu(0, 2, VALKEA) && !onko_ruutu_uhattu(0, 3, VALKEA) && !onko_ruutu_uhattu(0, 4, VALKEA))
+			{
+				siirrot.push_back(Siirto(0, 4, 0, 2));
+			}
 		}
 	}
+
 
 
 	// etsii annetun nappulan (esim. wK) rivin ja linjan
